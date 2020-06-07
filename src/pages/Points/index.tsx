@@ -116,6 +116,7 @@ const Points = () => {
           {
             initialPosition[0] !== 0 && (
               <MapView
+                key="AIzaSyAT5v_QokieuylNx_35CX6hkHeoSxl_Jus"
                 style={styles.map}
                 loadingEnabled={initialPosition[0] === 0}
                 initialRegion={{
